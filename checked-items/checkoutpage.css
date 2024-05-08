@@ -1,0 +1,99 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #363233;
+  margin: 0;
+  padding: 0;
+}
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #912a30;
+    width: 100%;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .navButton {
+    border:none;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    display: inline-block;
+    font-size: 25px;
+    border-left: .3px solid black;
+    border-right: .3px solid black;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: #7d2328;
+    justify-content: center;
+    width:100%;
+  }
+
+  h1 {
+    font-family:"Andale Mono";
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+  }
+
+  h2 {
+    font-family:"Andale Mono";
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+  }
+
+
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .box {
+    background-color: #912a30;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-height: 50%; /* Set a fixed height */
+    overflow-y: auto; /* make the box scrollable */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #912a30;
+  }
+
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+  th {
+    background-color: #7d2328;
+  }
+
+  .account-number-label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center; /* Center the text */
+
+  }
+  .account-number-value {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Optionally, make the value bold */
+    margin-top: 20px; /* Add some top margin to create space */
+    }
